@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Local Storage</title>
+    <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2>Using Local Storage</h2>
-    <input type="text" placeholder="Say something..." id="inputText">
-    <h3 id="displayText"></h3>
+    <div class="container">
+        <h2>Weather app</h2>
+        <input type="text" placeholder="Enter a city" id="city">
+        <button id="searchButton">Search</button>
+        <h2 id="searchedCity"></h2>
+        <img src="" alt="Weather Image" id="weatherImage">
+        <h4 id="temperature"></h4>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
