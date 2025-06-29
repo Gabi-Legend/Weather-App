@@ -4,7 +4,7 @@ searchButton.addEventListener("click", searchCity);
 
 function searchCity() {
   let city = document.getElementById("city").value;
-  const apiKey = "d7e498e89d084db3809111856252706"; // înlocuiește cu cheia ta
+  const apiKey = "d7e498e89d084db3809111856252706"; 
 
   if (!city) return alert("Please enter a city name!");
 
